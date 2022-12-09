@@ -20,7 +20,12 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    background-image: linear-gradient(
+        200deg,
+        rgb(0, 255, 170),
+        hsla(187, 100%, 69%, 0) 70%
+      ),
+      linear-gradient(130deg, rgb(236, 233, 236), hsla(300, 100%, 69%, 0) 70%),
+      linear-gradient(330deg, #04bfd8, hsla(0, 4%, 9%, 0) 70%);
   }
 }
